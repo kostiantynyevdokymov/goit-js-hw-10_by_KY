@@ -2,20 +2,20 @@
   "name": "goit-js-hw-10",
   "version": "2.0.0",
   "description": "",
-  "homepage": "andrgoit.github.io/goit-js-hw-10",
+  "homepage": "https://kostiantynyevdokymov.github.io/goit-js-hw-10_by_KY/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10_by_KY/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Andrgoit/goit-js-hw-10.git"
+    "url": "git+https://github.com/kostiantynyevdokymov/goit-js-hw-10_by_KY"
   },
   "keywords": [],
-  "author": "Andrey Hlushchenko stakgrom@gmail.com>",
+  "author": "Kostiantyn Yevdokymov cashalot80@ukr.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Andrgoit/goit-js-hw-10/issues"
+    "url": "https://github.com/kostiantynyevdokymov/goit-js-hw-10_by_KY/issues"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",

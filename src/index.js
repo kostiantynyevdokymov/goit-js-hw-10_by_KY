@@ -1,20 +1,17 @@
 import './css/styles.css';
 import { fetchCountries } from './js/fetchCountries';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { refs } from './js/refs';
 const debounce = require('lodash.debounce');
 
 const DEBOUNCE_DELAY = 300;
 
-const refs = {
-  input: document.querySelector('#search-box'),
-  countryList: document.querySelector('.country-list'),
-  countryInfo: document.querySelector('.country-info'),
-};
+
 
 refs.input.addEventListener('input', debounce(inputHandler, DEBOUNCE_DELAY));
 
-function inputHandler(e) {
-  e.preventDefault();
+function inputHandler(event) {
+  event.preventDefault();
   clearList();
 
   const form = e.target.value.trim();

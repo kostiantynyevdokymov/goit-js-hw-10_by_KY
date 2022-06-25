@@ -22,12 +22,11 @@ function inputHandler(event) {
       console.log(countries);
       if (form !== '') {
         if (countries.length >= 2 && countries.length <= 10) {
-          // clearList();
+
           markupListCountries(countries);
         } else if (countries.length === 1) {
           markupCountry(countries);
-          // clearList();
-          // clearInfo();
+        
         } else {
           alarmMessage();
         }

@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -27,38 +27,39 @@ ul {
 
 .country-list {
   display: block;
+
   padding: 10px;
+  /* background-color: #fff; */
 }
 
 .country-item {
   display: flex;
   margin-bottom: 10px;
 }
-
-.country-item-image {
+.country-item-img {
   display: block;
 }
-
 .country-item-text {
   margin-left: 10px;
 }
 
+.country-card-list {
+}
 .country-card-item {
   margin-bottom: 10px;
+}
+.country-card-property {
 }
 
 .country-card-header {
   margin-bottom: 20px;
 }
-
 .country-card-title {
   font-weight: 700;
 }
-
 .country-card-property {
   font-weight: 700;
 }
-
 .country-card-value {
   margin-left: 15px;
 }

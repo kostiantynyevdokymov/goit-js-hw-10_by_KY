@@ -14,7 +14,7 @@ function inputHandler(event) {
   event.preventDefault();
   clearList();
 
-  const form = e.target.value.trim();
+  const form = event.target.value.trim();
   console.log(form);
 
   fetchCountries(form)

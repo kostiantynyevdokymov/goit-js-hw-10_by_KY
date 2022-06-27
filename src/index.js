@@ -11,6 +11,7 @@ const DEBOUNCE_DELAY = 300;
 refs.input.addEventListener('input', debounce(inputHandler, DEBOUNCE_DELAY));
 
 function inputHandler(event) {
+
   event.preventDefault();
   clearList();
 
@@ -30,9 +31,10 @@ function inputHandler(event) {
         } else {
           alarmMessage();
         }
-      } else {
-        Notify.warning('Oops!');
       }
+      // else {
+      //   Notify.warning('Oops!');
+      // }
     })
     .catch(error => {
       Notify.failure('Oops, there is no country with that name');

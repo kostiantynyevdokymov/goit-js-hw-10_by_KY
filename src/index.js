@@ -17,6 +17,12 @@ function inputHandler(event) {
 
   const form = event.target.value.trim();
   console.log(form);
+  if (form === '') {
+    event.target.value = '';
+    clearList();
+    return Notify.warning('Search query is empty!');
+}
+
 
   fetchCountries(form)
     .then(countries => {
